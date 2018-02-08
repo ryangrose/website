@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="../../favicon.ico">
+
+  <title>Danmark</title>
+
+
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+  <!-- CSS - MOVE TO SEPARATE FILE -->
+  <style>
+    body {
+      background: url("https://www.toptal.com/designers/subtlepatterns/patterns/sayagata-400px.png");
+    }
+    div.gallery {
+      margin-top: 50px;
+      margin-left: 5%;
+      margin-right: auto;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      float: left;
+      width: 90%;
+      z-index: 2;
+    }
+
+    div.gallery:hover {
+      margin-left: 0%;
+      border: 1px solid #777;
+      z-index: 200000;
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    div.gallery img {
+      z-index: 1;
+      width: 100%;
+      height: auto;
+    }
+
+    div.desc {
+      padding: 15px;
+      text-align: center;
+    }
+
+    .jumbotron {
+      color: #000000;
+      padding-top: 10%;
+      padding-bottom: 10%;
+      background: #000 url("http://imgur.com/YhS8lKY.jpg");
+      background-position: 50% 65%;
+      background-size: cover;
+      text-shadow: 1px 1px 9px #c5c2c2;
+      border-bottom: 1px solid #777;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="display-3">Danmark</h1>
+      <p>A collection of photos from my stay with the Behrs and our adventures around Denmark. Only a few for now, but more coming soon!</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <!-- Example row of columns -->
+    <div class="row">
+      <div class="col-md-4">
+        <div class="gallery">
+          <a target="_blank" href="https://imgur.com/QtRQ15R.jpg">
+            <img src="https://i.imgur.com/QtRQ15R.jpg" alt="house" width="600" height="300">
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="gallery">
+          <a target="_blank" href="https://imgur.com/ZOYhyCT.jpg">
+            <img src="https://i.imgur.com/ZOYhyCT.jpg" alt="house" width="600" height="300">
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="gallery">
+          <a target="_blank" href="https://i.imgur.com/qmnPwBt.jpg">
+            <img src="https://i.imgur.com/qmnPwBt.jpg" alt="house" width="600" height="300">
+          </a>
+        </div>
+      </div>
+
+    </div>
+    
+    <hr>
+
+    <footer>
+      <p>Ryan Grose</p>
+    </footer>
+  </div>
+  <!-- /container -->
+</body>
+
+</html>

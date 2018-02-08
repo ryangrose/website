@@ -1,0 +1,45 @@
+body {
+    background: linear-gradient( rgba(0, 0, 0, 0.81), rgba(0, 0, 0, 0.81) ), url("http://i.imgur.com/y08F7IW.jpg");
+    background-size: cover;
+    display: block;
+    margin: 8px;
+    font-size: 100%;
+    padding: 1%;
+    font-family: 'Josefin Slab', serif;
+}
+
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2 em;
+}
+
+#main_text {
+    width: 95%;
+    color: #a6b9ab;
+    padding: 2%;
+    font-size: 200%;
+    border-radius: 25px;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 12.5%;
+}
+
+.button {
+    display: inline-block;
+    padding: 1%;
+    /* padding-left: .5%; */
+
+    border-radius: 3px;
+    background: linear-gradient( rgb(35, 20, 20), rgb(31, 18, 18) );
+    /* box-shadow: 2px 3px 3px #190a0a; */
+    box-shadow: 2px 3px 0px rgb(14, 8, 8);
+    text-decoration: none;
+    color: #a6b9ab;
+    font-size: .75em;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.button:hover {
+  box-shadow: 3px 4px 0px rgb(14, 8, 8);
+}
